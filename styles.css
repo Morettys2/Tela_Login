@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #201b2c;
+}
+
+header {
+    background-color: #01A17A;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: #201b2c;
+    color: #f0ffffde;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav a:hover {
+    background-color: #76669e;
+    color: #201b2c;
+}
+
+.img-logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.login-left,
+
+.login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-left h1 {
+    color: #01A17A;
+    text-align: center;
+}
+
+.card-login {
+    width: 300px;
+    padding: 30px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+    text-align: center;
+}
+
+.card-login h1 {
+    color: #01A17A;
+    margin-bottom: 20px;
+}
+
+.textfield {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.textfield label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #514869;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+}
+
+.textfield input::placeholder {
+    color: #f0ffff94;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 16px 0;
+    border: none;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #00006A;
+    background-color: #01A17A;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px #00000056;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #028f68;
+}
